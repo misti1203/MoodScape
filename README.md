@@ -53,33 +53,12 @@ The **DH-CVAE-GAN** comprises:
 ---
 
 ### **Getting Started**  
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/YourRepoName/Moodscape.git  
-   ```  
+Video Overview: Mood-Based Terrain Generation
+In the video, we demonstrate the functionality of the VR system, where users can input mood parameters (Valence and Arousal) via a UI panel using a controller. Based on the selected mood values, the system generates a terrain that corresponds to the emotional state. The UI panel also offers additional options, such as selecting specific terrain types for direct generation and an option to play music. While the music selection feature, which generates terrain based on the mood of the music, is beyond the scope of this journal, it adds another layer of interactivity.
+The video further illustrates how varying Valence and Arousal inputs influence the generated terrain, showcasing environments such as Mountain, Desert, Plateau, and Coastal regions. Initially, we developed the system for four terrain types, but as discussed in the paper, it can be extended to generate up to eight terrain types. The video provides a clear visualization of how these mood-based inputs alter the virtual environments in real-time.
+Video Link (YouTube): https://youtu.be/GuNz8bGriLQ?si=RASaMvQOSGB-CYho
 
-2. Install dependencies:  
-   ```bash
-   pip install -r requirements.txt  
-   ```  
 
-3. Train the model:  
-   ```bash
-   python train.py  
-   ```  
-
-4. Generate terrains:  
-   ```bash
-   python generate.py --input "affective_input.json"  
-   ```  
-
----
-
-### **Results**  
-- Demonstrates reliable generation of terrains aligned with affective inputs.  
-- Example outputs are available in the **`results/`** directory.  
-
----
 
 ### **Applications**  
 - Virtual Reality Experiences  
@@ -91,24 +70,6 @@ The **DH-CVAE-GAN** comprises:
 ### **Future Work**  
 - Extend to multi-modal affective inputs (e.g., user bio-signals).  
 - Optimize for real-time terrain generation in VR systems.  
-
----
-
-### **Citation**  
-If you use **Moodscape** in your research, please cite:  
-```
-@article{YourCitationKey,  
-  title={Moodscape: Emotion-Driven Terrain Synthesis for Virtual Reality Systems},  
-  author={Your Name},  
-  journal={To be published},  
-  year={2024},  
-}
-```
-
----
-
-### **Contributions**  
-We welcome contributions! Feel free to open an issue or submit a pull request.  
 
 ---
 
